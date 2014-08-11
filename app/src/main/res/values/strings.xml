@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dodaj">Dodaj</string>
+    <string name="title_activity_wyswietl">Wyswietl</string>
+    <string name="title_activity_dodaj_wizyte">DodajWizyte</string>
+    <string name="title_activity_karta_pacjenta">KartaPacjenta</string>
+    <string name="title_activity_wybierz_date">WybierzDate</string>
+    <string name="title_activity_wybierz_pacjenta">WybierzPacjenta</string>
+    <string name="title_activity_wyswietl_wizyty">WyswietlWizyty</string>
+
+</resources>

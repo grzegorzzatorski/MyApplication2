@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity$PlaceholderFragment">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodaj pacjenta"
+        android:id="@+id/dodaj"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/wyswietl"
+        android:layout_alignEnd="@+id/wyswietl"
+        android:layout_alignLeft="@+id/wyswietl"
+        android:layout_alignStart="@+id/wyswietl" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyswietl pacjentow"
+        android:id="@+id/wyswietl"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/dodaj"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodaj Wizyte"
+        android:id="@+id/dodajWizyte"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/wyswietl"
+        android:layout_alignLeft="@+id/wyswietl"
+        android:layout_alignStart="@+id/wyswietl"
+        android:layout_alignRight="@+id/wyswietl"
+        android:layout_alignEnd="@+id/wyswietl" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyswietl wizyty"
+        android:id="@+id/wyswietlWizyty"
+        android:layout_below="@+id/dodajWizyte"
+        android:layout_alignRight="@+id/dodajWizyte"
+        android:layout_alignEnd="@+id/dodajWizyte"
+        android:layout_marginTop="48dp"
+        android:layout_alignLeft="@+id/dodajWizyte"
+        android:layout_alignStart="@+id/dodajWizyte" />
+
+</RelativeLayout>
